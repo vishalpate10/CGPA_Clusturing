@@ -1,6 +1,9 @@
 # 🎓 Student Academic Clustering App
 
 This is a web-based **machine learning clustering app** built using **Streamlit**. It allows users to upload student academic data (CSV format), perform **K-Means clustering**, and explore insightful visualizations of student performance.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+App Link:-https://cgpaclusturing-by-vishal.streamlit.app/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
