@@ -25,8 +25,8 @@ if uploaded_file:
     if not numeric_cols:
         st.warning("No numeric columns found in the uploaded file.")
     else:
-        # Choose number of clusters
-        n_clusters = st.sidebar.slider("Select number of clusters", 2, 10, 3)
+        # Choose number of clusters with range 1 to 5
+        n_clusters = st.sidebar.slider("Select number of clusters", 1, 5, 3)
 
         # Feature selection (all numeric by default)
         selected_features = st.sidebar.multiselect("Select features for clustering", numeric_cols, default=numeric_cols)
